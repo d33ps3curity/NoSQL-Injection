@@ -7,3 +7,10 @@
 * Understand the execution contexts that queries are evaluated in (and how can be exploited).
 
 ```
+
+## What is NoSQL Injection (NoSQLi) ?
+* Introduced when developers create dynamic database queries that includes user supplied input.
+  * Untrusted input
+  * Can contain the typical types : strings (code), ints (numbers), etc.
+    * NoSQLi can also contain query objects for injection.
+   
